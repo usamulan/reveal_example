@@ -7,6 +7,15 @@
   #about .about-right h3{display:none;}
 }
 
+@media screen and (max-width:950px){
+/* Portfolio Section Code */
+#portfolio .port-info{padding:10px;}
+#portfolio .port-info .port-tit h4{margin-bottom:0px;}
+#portfolio .port-info .port-tit p
+
+
+}
+
 @media screen and (max-width:700px){
   /* Top Bar Style code */
   #topbar{padding:0;}
@@ -43,6 +52,14 @@
   #services .services-boxes .box{flex-direction:column; text-align:center;}
   #services .services-boxes .box .box-text{padding:0;}
   #services .services-boxes .box h4{margin:10px 0;}
+}
+
+/* Portfolio Section Style Code */
+#portfolio .portfolio-item{width:33.33%;}
+}
+
+@media screen and (max-width:500px){
+  #portfolio .portfolio-item{width:50%;}
 }
 
 @media screen and (max-width:400px){
