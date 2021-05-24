@@ -1,0 +1,113 @@
+/* Reset Style Code */
+*{margin:0; padding:0; box-sizing:border-box;}
+body{background:#fff; color:#444; font-family:"Open-Sans";}
+a{color:#50d8af; text-decoration: none;}
+ol, ul{list-style:none;}
+p{padding:0; margin:0 0 30px 0;}
+h1, h2, h3, h4, h5, h6{font-family:"Montserrat"; font-weight:400; margin:0 0 20px 0; padding:0;}
+input, textarea, button{outline:0;}
+textarea{resize:none;}
+
+/* Layout Reset Style Code */
+.wrap{width:100%; height:auto; overflow:hidden;}
+.center{width:100%; height:auto; max-width:1140px; margin:auto;}
+.clear:after{display:block; content:''; clear:both;}
+
+/* Top Bar Section Style Code */
+#topbar{padding:10px 0; border-bottom:1px solid #eee; font-size:14px;}
+#topbar .center{display:flex; justify-content: space-between;}
+#topbar .contact-info{display:flex; align-items: center;}
+#topbar .contact-info a{color:#555; font-size:14px;}
+#topbar .contact-info a:hover{color:#50d8af;}
+#topbar .contact-info i{color:#50d8af; padding:4px;}
+#topbar .contact-info i.fa-phone{padding-left:20px; border-left:1px solid #e9e9e9; margin-left:20px;}
+
+#topbar .social-links{display:flex;}
+#topbar .social-links a{color:#555; padding:4px 12px; border-left:1px solid #e9e9e9;}
+#topbar .social-links a:first-child{border-left:0;}
+#topbar .social-links a:hover{color:#50d8af;}
+#topbar .social-links a i{font-size:16px;}
+
+/* Header Area Style Code */
+#header{padding:20px 0; background:#fff; box-shadow: 0 3px 5px rgba(0, 0, 0, 0.06); z-index:9999; position:relative;}
+#header .center{display:flex; justify-content: space-between; align-items: center;}
+#header h1{margin:0; font-size:42px; font-family:"Montserrat"; font-weight:700;}
+#header h1 a{text-decoration: none; color:#0c2e8a;}
+#header h1 a span{color:#50d8af;}
+
+#header.sticky{position:fixed; top:0; width:100%;}
+
+/* Navigation in Header Style Code */
+#gnb{display:flex; align-items: center;}
+#gnb a{padding:0 10px; color:#555; font-family: "Raleway"; font-weight:700; font-size:14px; transition:all 0.4s;}
+#gnb a:hover{color:#50d8af;}
+
+/* Mobile Menu Style Code */
+.mobile-menu{width:30px; height:30px; border:1px solid #50d8af; display:none; align-items: center; justify-content: center;}
+.mobile-menu i{font-size:22px;}
+
+/* Intro Section Style Code */
+#intro{width:100%; height:60vh; background:url(../img/intro-carousel/1.jpg) no-repeat 0 0; background-size:cover; position:relative; display:flex; align-items: center; justify-content: center;}
+/* #intro #intro-carousel{height:100%; width:100%; display:flex; justify-content: center;}
+#intro .intro-contents{display:flex; align-items: center; flex-direction: column;}
+#intro .overlay{position:absolute; width:100%; height:100%; left:0; top:0; background:rgba(255, 255, 255, 0.5); z-index:10;}
+#intro .item{display:flex; justify-content: center; align-items: center;} */
+#intro .overlay{position:absolute; width:100%; height:100%; left:0; top:0; background:rgba(255, 255, 255, 0.5); z-index:10;}
+#intro .intro-contents{background:transparent; z-index:11; position:relative; display:flex; flex-direction: column; text-align:center;}
+
+body{height:4000px;}
+
+/* Main Slogan Text Style Code */
+#intro .intro-contents h2{font-size:64px; color:#0c2e8a; font-weight:700; margin:0 0 40px 0;}
+#intro .intro-contents h2 span{color:#50d8af; text-decoration: underline;}
+#intro .intro-contents .btn{font-family:"Raleway"; font-size:15px; font-weight:bold; letter-spacing:1px; padding:10px 32px; border-radius: 2px; margin:10px; color:#fff; border:2px solid #0c2e8a; background:#0c2e8a;}
+#intro .intro-contents .btn.btn-project{border:2px solid #50d8af; background: #50d8af; transition:all 0.4s;}
+#intro .intro-contents .btn.btn-project:hover{color:#50d8af; background:none;}
+
+/* About Section Style Code */
+#about{width:100%; height:auto;}
+#about .center{display:flex;}
+#about .center .about-box{width:50%; height:auto; padding:50px 30px;}
+#about .center .about-box img{width:100%;}
+#about .about-right h2{color:#0c2e8a; font-weight:700; font-size:36px;; font-family:"Raleway";}
+#about .about-right h3{color:#555; font-weight:300; font-size:18px; line-height:26px; font-style:italic;}
+#about .about-right ul li{padding-bottom:10px;}
+#about .about-right ul li i{font-size:20px; padding-right:4px;color:#50d8af;}
+
+/* Section's Common Style Code */
+.section{padding:30px 0 0 0;}
+.section .section-title{margin-bottom:30px;}
+.section .section-title h2{font-size:32px; color:#0c2e8a; text-transform:uppercase; font-weight:700; padding-bottom:20px; position:relative;}
+.section .section-title h2:before{content:''; position:absolute; width:50px; height:3px; background:#50d8af; bottom:0;}
+.section .section-title p{font-weight:400;}
+
+
+/* Services Section Style Code */
+#services .services-boxes{width:100%; height:auto; display:flex; flex-wrap:wrap; padding:10px 0;}
+#services .services-boxes .box{width:50%; padding:30px 20px; display:flex; box-shadow:10px 10px 15px rgba(73, 78, 92, 0.1); transition:all 0.4s; margin-bottom:20px;}
+#services .services-boxes .box:hover{box-shadow:0px 0px 30px rgba(73, 78, 92, 0.1); transform:translateY(-10px);}
+#services .services-boxes .box .box-text{padding-left:20px;}
+#services .services-boxes .box i{color:#50d8af; font-size:64px;}
+#services .services-boxes .box h4{font-weight:700; font-size:22px;}
+#services .services-boxes .box h4 a{color:#444;}
+#services .services-boxes .box p{font-size:16px; line-height:24px; margin:0;}
+
+/* Clients Section Style Code */
+#clients img{opacity:0.5; transition:all 0.4s; padding:15px 0;}
+#clients img:hover{opacity:1;}
+
+#clients .owl-dots{margin-top:5px; text-align:center;}
+#clients .owl-dot{margin:0 5px; display:inline-block; width:12px; height:12px; outline:0; background:#ddd; border-radius:50%;}
+#clients .owl-dot.active{background:#50d8af;}
+
+/* Portfolio Section Style Code */
+#portfolio .filter-menu{width:100%; height:auto; display:flex; justify-content: center;}
+#portfolio .filter-menu ul{display:flex;}
+#portfolio .filter-menu ul li{padding:8px 20px; background:#f7f7f7; margin:0 5px; cursor:pointer; font-size:14px; transition:all 0.4s; border-radius:4px;}
+#portfolio .filter-menu ul li:hover,
+#portfolio .filter-menu ul li.active{background:#50d8af; color:#fff;}
+
+#portfolio .portfolio-container{margin:30px 0 0 0; display:flex;}
+#portfolio .portfolio-item{width:25%; padding:5px;}
+#portfolio .portfolio-item .port-wrap{width:100%; height:100%;}
+#portfolio .portfolio-item img{width:100%; _height:100%; display:block;}

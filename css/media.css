@@ -1,0 +1,62 @@
+@media screen and (max-width:1140px){
+  .center{padding:0 15px;}
+
+  /* About Section Style Code */
+  #about .center .about-left{display:flex; align-items: center;}
+  #about .about-right h2{font-size:28px;}
+  #about .about-right h3{display:none;}
+}
+
+@media screen and (max-width:700px){
+  /* Top Bar Style code */
+  #topbar{padding:0;}
+  #topbar .center{justify-content: center;}
+  #topbar .contact-info{display:none;}
+  #topbar .social-links a{padding:8px 20px;}
+
+  /* Navigation Style Code */
+  #gnb{display:none; position:absolute; top:100%; flex-direction: column; left:0; width:100%;}
+  #gnb li{width:100%; text-align:center; border-top:1px solid #e9e9e9;}
+  #gnb a{padding:20px 0; background:#fff; display:block;}
+  #header{padding:10px 0;}
+  #header h1{font-size:34px;}
+  .mobile-menu{display:flex;}
+
+  /* Intro contents text style code */
+  /* vh, vw 참조 : https://programming119.tistory.com/93 */
+  #intro{height:45vh;}
+  #intro .intro-contents h2{font-size:40px; margin:0 0 20px 0;}
+  #intro .intro-contents .btn{font-size:12px; padding:8px 20px; margin:0;}
+
+  /* About Section Style Code */
+  #about .center{flex-wrap:wrap;}
+  #about .center .about-box{width:100%; padding:25px 15px;}
+
+  /* Section's Common Title Style Code */
+  .section{padding:15px 0 0 0;}
+  .section .section-title{text-align:center;}
+  .section .section-title h2{font-size:25px;}
+  .section .section-title h2:before{left:50%; transform:translateX(-50%);}
+  .section .section-title p{font-size:12px;}
+
+  /* Services Section Style Code */
+  #services .services-boxes .box{flex-direction:column; text-align:center;}
+  #services .services-boxes .box .box-text{padding:0;}
+  #services .services-boxes .box h4{margin:10px 0;}
+}
+
+@media screen and (max-width:400px){
+  /* Intro contents text style code */
+  #intro .intro-contents{padding:0 15px;}
+  #intro .intro-contents h2{font-size:32px;}
+
+  /* About Section Style Code */
+  #about .about-right h2{font-size:22px;}
+  #about .about-right ul li{font-size:13px;}
+  #about .about-right ul li i{font-size:16px;}
+
+  /* Services Section Style Code */
+  #services .services-boxes .box h4{font-size:18px;}
+  #services .services-boxes .box p{display:none;}
+}
+
