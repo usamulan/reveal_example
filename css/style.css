@@ -137,5 +137,18 @@ textarea{resize:none;}
 #contact .form-area .send-btn{width:100%; height:auto; display:flex; justify-content: center;}
 #contact .form-area .send-btn button{border:0; color:#fff; font-weight:600; padding:10px 30px; background: #50d8af; cursor:pointer;}
 
+/* Recieved Section Style Code  */
+#recieved .msg-table{width:100%; height:auto; margin-bottom:20px}
+#recieved .msg-table li{display: flex; text-align: center; padding:10px 0; border-bottom: 1px solid #f3f3f3; font-size:14px; color:#333;}
+#recieved .msg-table .msg-tit { background:#50d8af;}
+#recieved .msg-table .msg-tit span{width:25%; text-align:center; color:#fff; font-weight:600;}
+
+#recieved .msg-table li span:nth-child(1){width:15%;}
+#recieved .msg-table li span:nth-child(2){width:20%;}
+#recieved .msg-table li span:nth-child(3){width:45%; text-align:left;}
+#recieved .msg-table li span:nth-child(4){width:20%;}
+
+#recieved .msg-table .msg-con span:nth-child(3){text-align: left;}
+
 footer{width:100%; height:auto; display:flex; background:#50d8af; justify-content: center;}
-footer p{padding:25px 0; color:#fff; font-weight: 600; margin-bottom: 0;}
+footer p{padding:25px 0; color:#fff; font-weight: 600; margin-bottom:0;}

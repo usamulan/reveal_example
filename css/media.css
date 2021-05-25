@@ -11,7 +11,7 @@
 /* Portfolio Section Code */
 #portfolio .port-info{padding:10px;}
 #portfolio .port-info .port-tit h4{margin-bottom:0px;}
-#portfolio .port-info .port-tit p
+#portfolio .port-info .port-tit p{}
 
 
 }
@@ -52,11 +52,13 @@
   #services .services-boxes .box{flex-direction:column; text-align:center;}
   #services .services-boxes .box .box-text{padding:0;}
   #services .services-boxes .box h4{margin:10px 0;}
+  
+  /* Portfolio Section Style Code */
+  #portfolio .portfolio-item{width:33.33%;}
+
 }
 
-/* Portfolio Section Style Code */
-#portfolio .portfolio-item{width:33.33%;}
-}
+
 
 @media screen and (max-width:500px){
   #portfolio .portfolio-item{width:50%;}
